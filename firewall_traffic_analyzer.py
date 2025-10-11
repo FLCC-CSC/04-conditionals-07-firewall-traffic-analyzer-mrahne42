@@ -26,7 +26,7 @@ def fire_traf():
 
     print()
     print('FIREWALL LOG:')
-    print(f'Port: {port_number}, Transfer Size: {transfer_size}MB')
+    print(f'Port: {port_number}, Transfer Size: {transfer_size} MB')
     
 
     if port_number == 22 and transfer_size > 500:
