@@ -34,9 +34,9 @@ def fire_traf():
     elif port_number == 3389 and transfer_size > 500:
         print('Risk Assessment: HIGH RISK: Potential unauthorized remote access detected!')
     elif port_number == 80 and transfer_size > 100:
-        print('MEDIUM RISK: Large unencrypted data transfer detected!')
+        print('Risk Assessment: MEDIUM RISK: Large unencrypted data transfer detected!')
     elif port_number == 443:
-        print('LOW RISK: Secure encrypted transfer detected.')
+        print('Risk Assessment: LOW RISK: Secure encrypted transfer detected.')
     else:
         print('Risk Assessment: UNKNOWN: Unrecognized traffic pattern.')
 
